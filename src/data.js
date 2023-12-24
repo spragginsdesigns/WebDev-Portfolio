@@ -40,53 +40,93 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
+    skill: <Icon icon="logos:html-5" className="display-4" />,
     name: "HTML5",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
+    skill: <Icon icon="devicon:css3-wordmark" className="display-4" />,
     name: "CSS3",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
+    skill: <Icon icon="skill-icons:javascript" className="display-4" />,
     name: "JavaScript",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
+    skill: <Icon icon="devicon:bootstrap-wordmark" className="display-4" />,
     name: "BootStrap",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
+    skill: <Icon icon="devicon:react" className="display-4" />,
     name: "React",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
+    skill: <Icon icon="skill-icons:styledcomponents" className="display-4" />,
     name: "Styled Components",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
+    skill: <Icon icon="logos:redux" className="display-4" />,
     name: "Redux",
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
+    skill: <Icon icon="devicon:git" className="display-4" />,
     name: "Git",
   },
   {
     id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
+    skill: <Icon icon="icon-park:github" className="display-4" />,
     name: "GitHub",
+  },
+
+  // Skill for Windows
+  {
+    id: 10,
+    skill: <Icon icon="icon-park:windows" className="display-4" />,
+    name: "Windows",
+  },
+
+  // Skill for Linux
+  {
+    id: 11,
+    skill: <Icon icon="logos:linux-tux" className="display-4" />,
+    name: "Linux",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="logos:python" className="display-4" />,
+    name: "Python",
+  },
+
+  // Skill For Adobe PhotoShop
+  {
+    id: 13,
+    skill: <Icon icon="devicon:photoshop" className="display-4" />,
+    name: "Adobe PhotoShop",
+  },
+
+  // Skill for Debugging and Testing
+  {
+    id: 14,
+    skill: <Icon icon="solar:bug-bold-duotone" className="display-4" />,
+    name: "Debugging and Testing",
+  },
+
+  // Skill for YouTube Content Creator
+  {
+    id: 15,
+    skill: <Icon icon="logos:youtube-icon" className="display-4" />,
+    name: "YouTube Content Creator",
   },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1Kxt9Q_XibZzdZsmlAiBOTP_7dkD2KZxi/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1Zs80xA6bpSxLpFi6PIYoAKyXceoi0FZJ/view?usp=sharing";
 
 
 /* Projects

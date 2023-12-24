@@ -37,7 +37,7 @@ a:hover {
 
   img {
     background: ${({ theme }) =>
-      theme.name === "light" ? "#45413C" : "#797B7B"};
+    theme.name === "light" ? "#45413C" : "#797B7B"};
   }
 }
 
@@ -55,12 +55,12 @@ a:hover {
 .section {
   min-height: 100vh;
   display: grid;
-  place-items: center;
+  place-items: center;g
   padding: var(--nav-height) 0;
 }
 
 .title {
-    font-family: "Permanent Marker";
+    font-family: "Permanent Marker", cursive;
 }
 
 .card {
