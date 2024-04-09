@@ -32,13 +32,7 @@ export default function AboutMe() {
             </Title>
           </Container>
           <Row className="align-items-center mt-5">
-            <Col className="d-flex flex-column text-center">
-              <Container>
-                <p>{bio}</p>
-                {moreInfo && <p>{moreInfo}</p>}
-              </Container>
-            </Col>
-            <Col className="d-none d-md-block text-center">
+            <Col xs={12} md={6} className="text-center order-md-2">
               <img
                 src={avatar_url}
                 alt="GitHub Avatar"
@@ -46,6 +40,16 @@ export default function AboutMe() {
                 className="mx-auto rounded-circle"
                 style={{ width: "15rem", height: "15rem" }}
               />
+            </Col>
+            <Col
+              xs={12}
+              md={6}
+              className="d-flex flex-column text-center order-md-1"
+            >
+              <Container>
+                <p>{bio}</p>
+                {moreInfo && <p>{moreInfo}</p>}
+              </Container>
             </Col>
           </Row>
         </Container>

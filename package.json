@@ -1,9 +1,10 @@
 {
-  "name": "github-react-portfolio-template",
-  "homepage": "https://spragginsdesigns.github.io/WebDev-Portfolio",
+  "name": "@austin-spraggins/web-developer-portfolio",
+  "homepage": "https://spragginsdesigns.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconify/icons-fa-brands": "^1.2.4",
     "@iconify/react": "^4.1.0",
     "@reduxjs/toolkit": "^1.9.7",
     "bootstrap": "^5.3.2",

@@ -29,12 +29,20 @@ export default function Projects() {
       const tempData = [];
       data.forEach((el, i) => (tempData[i] = Object.create(el)));
       if (data.length !== 0 && filteredProjects.length !== 0) {
-        const tempArray = tempData.filter((obj) =>
+        let tempArray = tempData.filter((obj) =>
           filteredProjects.includes(obj.name)
         );
-        tempArray.length !== 0
-          ? setMainProjects([...tempArray])
-          : setMainProjects([...tempData.slice(0, 3)]);
+        if (tempArray.length !== 0) {
+          // Sort the projects based on the order in filteredProjects
+          tempArray.sort(
+            (a, b) =>
+              filteredProjects.indexOf(a.name) -
+              filteredProjects.indexOf(b.name)
+          );
+          setMainProjects([...tempArray]);
+        } else {
+          setMainProjects([...tempData.slice(0, 3)]);
+        }
       } else {
         setMainProjects([...tempData.slice(0, 3)]);
       }

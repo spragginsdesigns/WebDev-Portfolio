@@ -3,10 +3,13 @@ import { Icon } from "@iconify/react";
 
 // Navbar Logo image (uncomment below and import your image)
 // import newLogo from "./images/yourFileName"
-
+import linkedinIcon from "@iconify/icons-fa-brands/linkedin";
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
-
+import MovieDatabaseFetcherImage from "./images/movie-database-fetcher.jpg";
+import AgeCalculatorImage from "./images/age-calculator.jpg";
+import JavaScriptFancyCalculatorImage from "./images/javascript-fancy-calculator.jpg";
+import RockPaperScissorsImage from "./images/rock-paper-scissors.jpg";
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
@@ -24,7 +27,7 @@ export const githubUsername = "spragginsdesigns";
 export const navLogo = undefined;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon={linkedinIcon} />;
 
 /* About Me
  **************************************************************
@@ -126,21 +129,39 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1Zs80xA6bpSxLpFi6PIYoAKyXceoi0FZJ/view?usp=sharing";
-
+export const resume =
+  "https://drive.google.com/file/d/1Zs80xA6bpSxLpFi6PIYoAKyXceoi0FZJ/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = [
+  "movie-database-fetcher",
+  "Age-Calculator",
+  "JavaScript-Fancy-Calculator",
+  "rock-paper-scissors",
+  // Add more repository names here...
+];
 
-// Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "movie-database-fetcher",
+    image: MovieDatabaseFetcherImage, // Replace with the path to your image
   },
+  {
+    name: "Age-Calculator",
+    image: AgeCalculatorImage, // Replace with the path to your image
+  },
+  {
+    name: "JavaScript-Fancy-Calculator",
+    image: JavaScriptFancyCalculatorImage, // Replace with the path to your image
+  },
+  {
+    name: "rock-paper-scissors",
+    image: RockPaperScissorsImage, // Replace with the path to your image
+  },
+  // Add more objects here...
 ];
 
 /* Contact Info

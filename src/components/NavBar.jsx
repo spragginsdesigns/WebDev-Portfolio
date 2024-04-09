@@ -9,8 +9,7 @@ import { Icon } from "@iconify/react";
 // Components
 import { Container, Nav, Navbar } from "react-bootstrap";
 // Images
-import Logo from "./defaultNavLogo.svg";
-
+import Logo from "../images/austinspragginslogo1.jpg";
 // #region styled-components
 const StyledSwitch = styled.label`
   /* Slider pill */
@@ -110,8 +109,8 @@ export default function NavBar({ Logo }) {
             <img
               alt="Logo"
               src={Logo}
-              width="35"
-              height="35"
+              width="50"
+              height="50"
               className="rounded-circle"
             />
           </Navbar.Brand>
