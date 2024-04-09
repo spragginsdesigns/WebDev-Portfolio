@@ -8,7 +8,7 @@ import linkedinIcon from "@iconify/icons-fa-brands/linkedin";
 import Logo from "./images/logo.svg";
 import MovieDatabaseFetcherImage from "./images/movie-database-fetcher.jpg";
 import AgeCalculatorImage from "./images/age-calculator.jpg";
-import JavaScriptFancyCalculatorImage from "./images/javascript-fancy-calculator.jpg";
+import JavaScriptFancyCalculatorImage from "./images/battleshipjsproject.png";
 import RockPaperScissorsImage from "./images/rock-paper-scissors.jpg";
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
