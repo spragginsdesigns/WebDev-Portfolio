@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio",
-  "name": "My GitHub Portfolio",
+  "short_name": "Austin Spraggins Portfolio",
+  "name": "Austin Spraggins Web Developer Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,13 +18,13 @@
       "sizes": "512x512"
     },
     {
-      "src": "maskable_icon.png",
+      "src": "logo512.png",
       "type": "image/png",
-      "sizes": "240x240",
+      "sizes": "512x512",
       "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://spragginsdesigns.xyz",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
