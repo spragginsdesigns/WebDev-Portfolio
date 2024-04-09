@@ -24,6 +24,14 @@ export default function Projects() {
   const error = useSelector(selectError);
   const data = useSelector(selectData);
 
+  function toTitleCase(str) {
+    return str
+      .replace(/-/g, " ")
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
+
   React.useEffect(
     function () {
       const tempData = [];
@@ -86,10 +94,12 @@ export default function Projects() {
                     <Col key={id}>
                       <StyledCard
                         image={image}
-                        name={name}
+                        name={toTitleCase(name)}
                         description={description}
                         url={html_url}
-                        demo={homepage}
+                        demo={
+                          name === "javascript-fancy-calculator" ? homepage : ""
+                        }
                       />
                     </Col>
                   );

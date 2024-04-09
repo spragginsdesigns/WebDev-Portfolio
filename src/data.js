@@ -6,10 +6,10 @@ import { Icon } from "@iconify/react";
 import linkedinIcon from "@iconify/icons-fa-brands/linkedin";
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
-import MovieDatabaseFetcherImage from "./images/movie-database-fetcher.jpg";
-import AgeCalculatorImage from "./images/age-calculator.jpg";
+import MovieDatabaseFetcherImage from "./images/moviemetadatafetcher.png";
+import AgeCalculatorImage from "./images/age-calculator.png";
 import JavaScriptFancyCalculatorImage from "./images/battleshipjsproject.png";
-import RockPaperScissorsImage from "./images/rock-paper-scissors.jpg";
+import RockPaperScissorsImage from "./images/rock-paper-scissors.png";
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
