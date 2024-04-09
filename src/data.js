@@ -8,8 +8,9 @@ import linkedinIcon from "@iconify/icons-fa-brands/linkedin";
 import Logo from "./images/logo.svg";
 import MovieDatabaseFetcherImage from "./images/moviemetadatafetcher.png";
 import AgeCalculatorImage from "./images/age-calculator.png";
-import JavaScriptFancyCalculatorImage from "./images/battleshipjsproject.png";
+import JavaScriptFancyCalculatorImage from "./images/js-fancy-calculator.png";
 import RockPaperScissorsImage from "./images/rock-paper-scissors.png";
+import BattleshipGameImage from "./images/battleshipjsproject.png";
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
@@ -141,6 +142,7 @@ export const filteredProjects = [
   "Age-Calculator",
   "JavaScript-Fancy-Calculator",
   "rock-paper-scissors",
+  "Battleship-Game-JavaScript-IS30A-Final",
   // Add more repository names here...
 ];
 
@@ -161,7 +163,10 @@ export const projectCardImages = [
     name: "rock-paper-scissors",
     image: RockPaperScissorsImage, // Replace with the path to your image
   },
-  // Add more objects here...
+  {
+    name: "Battleship-Game-JavaScript-IS30A-Final",
+    image: BattleshipGameImage, // Replace with the path to your image
+  },
 ];
 
 /* Contact Info

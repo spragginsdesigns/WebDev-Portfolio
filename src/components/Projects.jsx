@@ -98,7 +98,9 @@ export default function Projects() {
                         description={description}
                         url={html_url}
                         demo={
-                          name === "javascript-fancy-calculator" ? homepage : ""
+                          name === "Battleship-Game-JavaScript-IS30A-Final"
+                            ? "https://spragginsdesigns.github.io/Battleship-Game-JavaScript-IS30A-Final/"
+                            : ""
                         }
                       />
                     </Col>
