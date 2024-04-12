@@ -75,8 +75,8 @@ Thank you for exploring my portfolio crafted with React, Redux, and GitHub REST 
 
 # Roadmap
 
-- [ ] Correct Responsive Mobile Version - Hero Image & Profile Picture not showing
-- [ ] Add images to each GitHub project
+- [x] Correct Responsive Mobile Version - Hero Image & Profile Picture not showing
+- [x] Add images to each GitHub project
 
 <!-- CONTRIBUTING -->
 
