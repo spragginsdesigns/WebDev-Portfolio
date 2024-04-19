@@ -116,7 +116,9 @@ export const skillData = [
   },
   {
     id: 14,
-    skill: <Icon icon="file-icons:test-js" className="display-4" />,
+    skill: (
+      <Icon icon="vscode-icons:file-type-vscode-test" className="display-4" />
+    ),
     name: "Debugging and Testing",
   },
 
