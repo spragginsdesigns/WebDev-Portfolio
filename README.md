@@ -4,7 +4,7 @@
 
 <!-- PROJECT LOGO -->
 
-![Austin Spraggins Portfolio Image](public/logo512.png)
+<img src="public/logo512.png" alt="Austin Spraggins Portfolio Image" width="200" height="200">
 
 ---
 
@@ -36,7 +36,7 @@ With proficiency in HTML5, CSS3, JavaScript, Node, React, Redux, APIs, and Kali 
 
 Having nurtured a YouTube channel with over 10,000 subscribers, I bring not just technical expertise but also a knack for content creation and community engagement. This portfolio is a gateway for potential employers to witness my journey, skills, and unwavering passion for web development.
 
-With aspirations to secure another impactful role in web development, I invite you to explore this portfolio as a testament to my capabilities, growth mindset, and the tangible impact I can bring to your team. Thank you for considering my application, I am eager for the opportunity to contribute to and thrive within your organization.
+With aspirations to secure another important role in web development, I invite you to explore this portfolio as a testament to my capabilities, growth mindset, and the tangible impact I can bring to your team. Thank you for considering my application. I am eager to have the opportunity to contribute to and thrive within your organization.
 
 <!-- Overview Of Project -->
 
@@ -77,8 +77,8 @@ Thank you for exploring my portfolio crafted with React, Redux, and GitHub REST 
 
 # Roadmap
 
-- [ ] Correct Responsive Mobile Version - Hero Image & Profile Picture not showing
-- [ ] Add images to each GitHub project
+- [x] Correct Responsive Mobile Version - Hero Image & Profile Picture not showing
+- [x] Add images to each GitHub project
 
 <!-- CONTRIBUTING -->
 
