@@ -8,6 +8,18 @@
 
 ---
 
+<!-- Table of Contents -->
+
+# Table of Contents
+
+- [My Web Development Portfolio](#my-web-development-portfolio)
+- [Table of Contents](#table-of-contents)
+- [Created With](#created-with)
+- [Crafting Excellence with React, Redux, and GitHub REST API](#crafting-excellence-with-react-redux-and-github-rest-api)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Contact Me](#contact-me)
+- [Acknowledgements](#acknowledgements)
 <!-- Badges -->
 
 # Created With
@@ -79,6 +91,7 @@ Thank you for exploring my portfolio crafted with React, Redux, and GitHub REST 
 
 - [x] Correct Responsive Mobile Version - Hero Image & Profile Picture not showing
 - [x] Add images to each GitHub project
+- [x] Update resume link to [here](https://drive.google.com/file/d/10sDx_IquMriFhPRJX1xHnSeE36vIDNqC/view?usp=sharing)
 
 <!-- CONTRIBUTING -->
 

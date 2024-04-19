@@ -1,6 +1,5 @@
 // Skills icons - https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
-
 // Navbar Logo image (uncomment below and import your image)
 // import newLogo from "./images/yourFileName"
 import linkedinIcon from "@iconify/icons-fa-brands/linkedin";
@@ -42,6 +41,7 @@ export const moreInfo =
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
 */
 export const skillData = [
+  // Programming Languages
   {
     id: 1,
     skill: <Icon icon="logos:html-5" className="display-4" />,
@@ -57,6 +57,20 @@ export const skillData = [
     skill: <Icon icon="skill-icons:javascript" className="display-4" />,
     name: "JavaScript",
   },
+  {
+    id: 12,
+    skill: <Icon icon="logos:python" className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 16,
+    skill: (
+      <Icon icon="logos:typescript-icon" className="display-4" color="gray" />
+    ),
+    name: "TypeScript",
+  },
+
+  // Libraries and Frameworks
   {
     id: 4,
     skill: <Icon icon="devicon:bootstrap-wordmark" className="display-4" />,
@@ -77,6 +91,19 @@ export const skillData = [
     skill: <Icon icon="logos:redux" className="display-4" />,
     name: "Redux",
   },
+
+  {
+    id: 18,
+    skill: <Icon icon="logos:nextjs-icon" className="display-4" />,
+    name: "Next.js",
+  },
+  {
+    id: 19,
+    skill: <Icon icon="logos:tailwindcss-icon" className="display-4" />,
+    name: "Tailwind CSS",
+  },
+
+  // Tools
   {
     id: 8,
     skill: <Icon icon="devicon:git" className="display-4" />,
@@ -87,41 +114,36 @@ export const skillData = [
     skill: <Icon icon="icon-park:github" className="display-4" />,
     name: "GitHub",
   },
-
-  // Skill for Windows
   {
-    id: 10,
-    skill: <Icon icon="icon-park:windows" className="display-4" />,
-    name: "Windows",
+    id: 14,
+    skill: <Icon icon="file-icons:test-js" className="display-4" />,
+    name: "Debugging and Testing",
   },
 
-  // Skill for Linux
+  // Operating Systems
+  {
+    id: 10,
+    skill: <Icon icon="devicon:windows11" className="display-4" />,
+    name: "Windows",
+  },
   {
     id: 11,
     skill: <Icon icon="logos:linux-tux" className="display-4" />,
     name: "Linux",
   },
+
   {
-    id: 12,
-    skill: <Icon icon="logos:python" className="display-4" />,
-    name: "Python",
+    id: 17,
+    skill: <Icon icon="simple-icons:kalilinux" className="display-4" />,
+    name: "Kali Linux",
   },
 
-  // Skill For Adobe PhotoShop
+  // Other Skills
   {
     id: 13,
     skill: <Icon icon="devicon:photoshop" className="display-4" />,
     name: "Adobe PhotoShop",
   },
-
-  // Skill for Debugging and Testing
-  {
-    id: 14,
-    skill: <Icon icon="solar:bug-bold-duotone" className="display-4" />,
-    name: "Debugging and Testing",
-  },
-
-  // Skill for YouTube Content Creator
   {
     id: 15,
     skill: <Icon icon="logos:youtube-icon" className="display-4" />,
@@ -131,7 +153,7 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume =
-  "https://drive.google.com/file/d/1Zs80xA6bpSxLpFi6PIYoAKyXceoi0FZJ/view?usp=sharing";
+  "https://drive.google.com/file/d/10sDx_IquMriFhPRJX1xHnSeE36vIDNqC/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
