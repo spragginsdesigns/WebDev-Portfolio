@@ -1,29 +1,30 @@
 # My Web Development Portfolio
+
 👋 Hello, I'm Austin Spraggins! Welcome to my React-based portfolio webpage, where technology meets creativity.
 
 <!-- PROJECT LOGO -->
 
 ![Austin Spraggins Portfolio Image](public/logo512.png)
 
-***
+---
 
 <!-- Badges -->
 
 # Created With
 
-| Created With   | Coresponding Badges                                          |
-| -------------- | ------------------------------------------------------------ |
-| HTML5          | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) |
-| CSS3           | ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |
-| JavaScript     | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) |
-| React          | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
-| Redux          | ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) |
-| NodeJS         | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) |
-| Adobe Software | ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) |
-| GitHub Pages   | ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) |
-| VS Code        | ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+| Created With   | Coresponding Badges                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HTML5          | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)                                         |
+| CSS3           | ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)                                            |
+| JavaScript     | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)                      |
+| React          | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)                                     |
+| Redux          | ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)                                         |
+| NodeJS         | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)                                           |
+| Adobe Software | ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)       |
+| GitHub Pages   | ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)                               |
+| VS Code        | ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
 
-***
+---
 
 **Portfolio Purpose Statement: Elevating My Web Development Journey**
 
@@ -40,7 +41,8 @@ With aspirations to secure another impactful role in web development, I invite y
 <!-- Overview Of Project -->
 
 This serves as my web app portfolio. I leverage the GitHub REST API, along with React, Redux, and other technologies, to craft an elegant, simple, yet impressive showcase of my skills and projects.
-***
+
+---
 
 # Crafting Excellence with React, Redux, and GitHub REST API
 
@@ -69,7 +71,7 @@ Welcome to my web development portfolio, meticulously crafted with React, Redux,
 
 Thank you for exploring my portfolio crafted with React, Redux, and GitHub REST API. It's not just a showcase; it's a living testament to my dedication to excellence and innovation in web development.
 
-***
+---
 
 <!-- ROADMAP -->
 
@@ -80,7 +82,7 @@ Thank you for exploring my portfolio crafted with React, Redux, and GitHub REST 
 
 <!-- CONTRIBUTING -->
 
-***
+---
 
 # Contributing
 
@@ -92,26 +94,26 @@ Participating in the open-source community is a fantastic opportunity for learni
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-***
+---
 
 <!-- CONTACT -->
 
 # Contact Me
 
-* Austin Spraggins Email - <spragginsdesigns@gmail.com>
-* YouTube Channel: [Shadow Gaming](https://www.youtube.com/c/shadowgaming99)
-* LinkedIn: [Austin Spraggins LinkedIn](https://www.linkedin.com/in/spragginsdesigns/)
-* Resume: [My Resume](https://drive.google.com/file/d/1Zs80xA6bpSxLpFi6PIYoAKyXceoi0FZJ/view?usp=sharing)
+- Austin Spraggins Email - <austin@spragginsdesigns.xyz>
+- YouTube Channel: [Shadow Gaming](https://www.youtube.com/c/shadowgaming99)
+- LinkedIn: [Austin Spraggins LinkedIn](https://www.linkedin.com/in/spragginsdesigns/)
+- Resume: [My Resume](https://drive.google.com/file/d/10sDx_IquMriFhPRJX1xHnSeE36vIDNqC/view?usp=sharing)
 
-***
+---
 
 <!-- ACKNOWLEDGEMENTS -->
 
 # Acknowledgements
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [NPM](https://www.npmjs.com/)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+- [NPM](https://www.npmjs.com/)
 
-***
+---
