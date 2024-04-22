@@ -153,13 +153,13 @@ export const skillData = [
   },
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+// Resume link
 export const resume =
-  "https://drive.google.com/file/d/10sDx_IquMriFhPRJX1xHnSeE36vIDNqC/view?usp=sharing";
+  "https://drive.google.com/file/d/1MniYIMCKr6RST3gt8NQ3Bgghkts4nhX5/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
-  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
+  List the repo names
 */
 export const filteredProjects = [
   "movie-database-fetcher",
@@ -173,29 +173,27 @@ export const filteredProjects = [
 export const projectCardImages = [
   {
     name: "movie-database-fetcher",
-    image: MovieDatabaseFetcherImage, // Replace with the path to your image
+    image: MovieDatabaseFetcherImage,
   },
   {
     name: "Age-Calculator",
-    image: AgeCalculatorImage, // Replace with the path to your image
+    image: AgeCalculatorImage, 
   },
   {
     name: "JavaScript-Fancy-Calculator",
-    image: JavaScriptFancyCalculatorImage, // Replace with the path to your image
-  },
+    image: JavaScriptFancyCalculatorImage, 
   {
     name: "rock-paper-scissors",
-    image: RockPaperScissorsImage, // Replace with the path to your image
+    image: RockPaperScissorsImage, 
   },
   {
     name: "Battleship-Game-JavaScript-IS30A-Final",
-    image: BattleshipGameImage, // Replace with the path to your image
+    image: BattleshipGameImage, 
   },
 ];
 
 /* Contact Info
  ************************************************************** 
-  Add your formspree endpoint below.
   https://formspree.io/
 */
 export const formspreeUrl = "https://formspree.io/f/xleqrrnk";
