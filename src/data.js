@@ -37,7 +37,7 @@ export const moreInfo =
   "Hello, I'm Austin Spraggins, a passionate and dedicated web developer and security analyst based in California. At 33, I find joy in the dynamic intersection of programming and cybersecurity. As a devoted husband and father of two amazing children aged 6 and 11, my commitment to excellence extends beyond my professional endeavors.I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
- ************************************************************** 
+ **************************************************************
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
 */
 export const skillData = [
@@ -155,10 +155,10 @@ export const skillData = [
 
 // Resume link
 export const resume =
-  "https://drive.google.com/file/d/1MniYIMCKr6RST3gt8NQ3Bgghkts4nhX5/view?usp=sharing";
+  "https://drive.google.com/file/d/1pzcAsFLW6gqUctzyfAt4bycddAmjEyIN/view?usp=sharing";
 
 /* Projects
- ************************************************************** 
+ **************************************************************
   List the repo names
 */
 export const filteredProjects = [
@@ -177,23 +177,23 @@ export const projectCardImages = [
   },
   {
     name: "Age-Calculator",
-    image: AgeCalculatorImage, 
+    image: AgeCalculatorImage,
   },
   {
     name: "JavaScript-Fancy-Calculator",
-    image: JavaScriptFancyCalculatorImage, 
+    image: JavaScriptFancyCalculatorImage,
   {
     name: "rock-paper-scissors",
-    image: RockPaperScissorsImage, 
+    image: RockPaperScissorsImage,
   },
   {
     name: "Battleship-Game-JavaScript-IS30A-Final",
-    image: BattleshipGameImage, 
+    image: BattleshipGameImage,
   },
 ];
 
 /* Contact Info
- ************************************************************** 
+ **************************************************************
   https://formspree.io/
 */
 export const formspreeUrl = "https://formspree.io/f/xleqrrnk";
